@@ -6,8 +6,5 @@ requests>=2.31,<3
 # hypercorn>=0.14
 # waitress>=2.1
 # Flask-Cors>=4,<5
-Flask==2.2.5
-Werkzeug==2.2.3
-aiohttp>=3.8,<4
 python-telegram-bot>=20.0
 tqdm
