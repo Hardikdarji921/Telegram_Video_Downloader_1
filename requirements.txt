@@ -4,3 +4,4 @@ python-telegram-bot>=21.0
 aiohttp>=3.9.0,<4
 tqdm
 python-dotenv
+gunicorn
