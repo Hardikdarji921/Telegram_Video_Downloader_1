@@ -19,7 +19,8 @@ from tqdm.asyncio import tqdm_asyncio
 # ──────────────────────────────────────────────
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8381801742:AAHt40yKq87Pz9_OZ1wonxsJpMxHbkQSuEM")
-GATEWAY_URL = "http://localhost:5000/api"           # local Flask API
+GATEWAY_URL = "https://telegram-video-downloader-1-1.onrender.com/api"
+#GATEWAY_URL = "http://localhost:5000/api"           # local Flask API
 
 MAX_FILE_SIZE_MB = 1800
 
